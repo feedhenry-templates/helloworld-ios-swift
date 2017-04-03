@@ -1,4 +1,5 @@
-# helloworld-ios-swift [![Build Status](https://travis-ci.org/feedhenry-templates/helloworld-ios-swift.png)](https://travis-ci.org/feedhenry-templates/helloworld-ios-swift)
+# helloworld-ios-swift
+[![Build Status](https://travis-ci.org/feedhenry-templates/helloworld-ios-swift.png)](https://travis-ci.org/feedhenry-templates/helloworld-ios-swift)
 
 > Obj-C version is available [here](https://github.com/feedhenry-templates/helloworld-ios).
 
