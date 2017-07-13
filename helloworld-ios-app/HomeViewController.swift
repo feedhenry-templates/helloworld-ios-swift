@@ -33,7 +33,11 @@ class HomeViewController: UIViewController {
                 if FH.isOnline == false {
                     self.result.text = "Make sure you're online."
                 } else {
-                    self.result.text = "Please fill in fhconfig.plist file."
+                    if error.code == 0 {
+                        self.result.text = "Please fill in fhconfig.plist file."
+                    } else {
+                        self.result.text = "FH init failed. \(error.localizedDescription)"
+                    }
                 }
                 return
             }

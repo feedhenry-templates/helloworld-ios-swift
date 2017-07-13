@@ -139,12 +139,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48ED7C491C03192D000A368F /* Build configuration list for PBXNativeTarget "helloworld-ios-app" */;
 			buildPhases = (
+				131E7B5AF331F61518EF9C21 /* 📦 Check Pods Manifest.lock */,
 				25E5DFA2D920F304D00D5962 /* [CP] Check Pods Manifest.lock */,
 				48ED7C331C03192D000A368F /* Sources */,
 				48ED7C341C03192D000A368F /* Frameworks */,
 				48ED7C351C03192D000A368F /* Resources */,
 				9C65209190CC7F54A9A785A1 /* [CP] Embed Pods Frameworks */,
 				F16E58BBCD3BB35D36B305AC /* [CP] Copy Pods Resources */,
+				C28956924283A1DA7E97724F /* 📦 Embed Pods Frameworks */,
+				D6E4825BC5A1A2DA3AE05C85 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,6 +192,7 @@
 					};
 					886B2C4C1E77E0A3004F7DD8 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 48ED7C361C03192D000A368F;
 					};
@@ -235,6 +239,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		131E7B5AF331F61518EF9C21 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		25E5DFA2D920F304D00D5962 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -263,6 +282,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-helloworld-ios-app/Pods-helloworld-ios-app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C28956924283A1DA7E97724F /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-helloworld-ios-app/Pods-helloworld-ios-app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6E4825BC5A1A2DA3AE05C85 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-helloworld-ios-app/Pods-helloworld-ios-app-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F16E58BBCD3BB35D36B305AC /* [CP] Copy Pods Resources */ = {
@@ -506,6 +555,7 @@
 				886B2C551E77E0A4004F7DD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
