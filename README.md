@@ -10,7 +10,7 @@ Summary: A demonstration of how to get started with remote cloud call in RHMAP.
 Community Project : [Feed Henry](http://feedhenry.org)   
 Target Product: RHMAP   
 Product Versions: RHMAP 3.7.0+   
-Source: https://github.com/feedhenry-templates/helloworld-ios   
+Source: https://github.com/feedhenry-templates/helloworld-ios-swift
 Prerequisites: fh-ios-swift-sdk: 5+, Xcode: 8+, iOS SDK: iOS 9+, CocoaPods 1.3.0+
 
 ## What is it?
