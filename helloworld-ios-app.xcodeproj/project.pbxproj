@@ -139,15 +139,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48ED7C491C03192D000A368F /* Build configuration list for PBXNativeTarget "helloworld-ios-app" */;
 			buildPhases = (
-				131E7B5AF331F61518EF9C21 /* 📦 Check Pods Manifest.lock */,
+				131E7B5AF331F61518EF9C21 /* [CP] Check Pods Manifest.lock */,
 				25E5DFA2D920F304D00D5962 /* [CP] Check Pods Manifest.lock */,
 				48ED7C331C03192D000A368F /* Sources */,
 				48ED7C341C03192D000A368F /* Frameworks */,
 				48ED7C351C03192D000A368F /* Resources */,
 				9C65209190CC7F54A9A785A1 /* [CP] Embed Pods Frameworks */,
 				F16E58BBCD3BB35D36B305AC /* [CP] Copy Pods Resources */,
-				C28956924283A1DA7E97724F /* 📦 Embed Pods Frameworks */,
-				D6E4825BC5A1A2DA3AE05C85 /* 📦 Copy Pods Resources */,
+				C28956924283A1DA7E97724F /* [CP] Embed Pods Frameworks */,
+				D6E4825BC5A1A2DA3AE05C85 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,14 +239,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		131E7B5AF331F61518EF9C21 /* 📦 Check Pods Manifest.lock */ = {
+		131E7B5AF331F61518EF9C21 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,14 +284,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-helloworld-ios-app/Pods-helloworld-ios-app-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C28956924283A1DA7E97724F /* 📦 Embed Pods Frameworks */ = {
+		C28956924283A1DA7E97724F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,14 +299,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-helloworld-ios-app/Pods-helloworld-ios-app-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D6E4825BC5A1A2DA3AE05C85 /* 📦 Copy Pods Resources */ = {
+		D6E4825BC5A1A2DA3AE05C85 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
