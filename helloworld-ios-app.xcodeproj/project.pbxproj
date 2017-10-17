@@ -279,17 +279,17 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-helloworld-ios-app/Pods-helloworld-ios-app-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AeroGear-Push-Swift/AeroGearPush.framework",
 				"${BUILT_PRODUCTS_DIR}/AeroGearHttp/AeroGearHttp.framework",
+				"${BUILT_PRODUCTS_DIR}/AeroGearPush-Swift/AeroGearPush.framework",
 				"${BUILT_PRODUCTS_DIR}/FeedHenry/FeedHenry.framework",
-				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/ReachabilitySwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AeroGearPush.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AeroGearHttp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AeroGearPush.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FeedHenry.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReachabilitySwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
