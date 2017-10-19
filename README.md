@@ -1,17 +1,19 @@
 # helloworld-ios-swift
-[![Build Status](https://travis-ci.org/feedhenry-templates/helloworld-ios-swift.png)](https://travis-ci.org/feedhenry-templates/helloworld-ios-swift)
+
+[![circle-ci](https://img.shields.io/circleci/project/github/feedhenry-templates/helloworld-ios-swift/master.svg)](https://circleci.com/gh/feedhenry-templates/helloworld-ios-swift)
+
 
 > Obj-C version is available [here](https://github.com/feedhenry-templates/helloworld-ios).
 
 Author: Corinne Krych, Daniel Passos   
-Level: Intermediate  
-Technologies: Swift 3, iOS, RHMAP, CocoaPods.
-Summary: A demonstration of how to get started with remote cloud call in RHMAP.
-Community Project : [Feed Henry](http://feedhenry.org)
-Target Product: RHMAP  
+Level: Intermediate   
+Technologies: Swift 4, iOS, RHMAP, CocoaPods.   
+Summary: A demonstration of how to get started with remote cloud call in RHMAP.   
+Community Project: [Feed Henry](http://feedhenry.org)   
+Target Product: RHMAP   
 Product Versions: RHMAP 3.7.0+   
-Source: https://github.com/feedhenry-templates/helloworld-ios  
-Prerequisites: fh-ios-swift-sdk : 5+, Xcode : 8+, iOS SDK : iOS8+, CocoaPods 1.1.0+
+Source: https://github.com/feedhenry-templates/helloworld-ios-swift   
+Prerequisites: fh-ios-swift-sdk: 6+, Xcode: 9+, iOS SDK: iOS 9+, CocoaPods 1.3.0+
 
 ## What is it?
 
@@ -32,7 +34,7 @@ If you wish to contribute to this template, the following information may be hel
 ## Build instructions
 
 1. Clone this project
-1. Populate ```iOS-Template-App/fhconfig.plist``` with your values as explained [here](http://docs.feedhenry.com/v3/dev_tools/sdks/ios.html#ios-configure).
+1. Populate ```iOS-Template-App/fhconfig.plist``` with your values as explained [here](https://access.redhat.com/documentation/en-us/red_hat_mobile_application_platform_hosted/3/html/client_sdk/native-ios-swift).
 1. Run ```pod install```
 1. Open Helloworld-app-iOS.xcworkspace
 1. Run the project
