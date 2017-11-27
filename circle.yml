@@ -5,7 +5,7 @@ machine:
     XCODE_WORKSPACE: "helloworld-ios-app.xcworkspace"
     XCODE_SCHEME: "helloworld-ios-app"
     SIMULATOR: "iPhone 7"
-    OS: "11.0"
+    OS: "11.0.1"
 
 general:
   branches:
